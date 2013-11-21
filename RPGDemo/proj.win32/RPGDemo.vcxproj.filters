@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\STMVC">
+      <UniqueIdentifier>{019f9e55-5300-4f2d-8bfb-5b64e222ec89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu">
+      <UniqueIdentifier>{23f58132-a662-4a90-897c-7dbc889f7e39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MenuMain.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MenuController.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\STMVC\STObject.cpp">
+      <Filter>Classes\STMVC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MenuModel.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\STMVC\STCommand.cpp">
+      <Filter>Classes\STMVC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\STMVC\STProxy.cpp">
+      <Filter>Classes\STMVC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Menu\MenuProxy.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\STMVC\STView.h">
+      <Filter>Classes\STMVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\STMVC\STController.h">
+      <Filter>Classes\STMVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\STMVC\STModel.h">
+      <Filter>Classes\STMVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuMain.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\STMVC\STMVC.h">
+      <Filter>Classes\STMVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuController.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\STMVC\STObject.h">
+      <Filter>Classes\STMVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuModel.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\STMVC\STCommand.h">
+      <Filter>Classes\STMVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\STMVC\STProxy.h">
+      <Filter>Classes\STMVC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuProxy.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Menu\MenuCommand.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
